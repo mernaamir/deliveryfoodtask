@@ -104,10 +104,11 @@ class LogIn extends StatelessWidget {
                     height: 20.h,
                   ),
                   Container(
-                    width: 175.w,
-                    height: 40.h,
+                    width: 141.w,
+                    height: 57.h,
                     child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
+
                           backgroundColor: AppColors.mainColor,
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(10))),
@@ -123,7 +124,7 @@ class LogIn extends StatelessWidget {
                       },
                       child: Text(
                         "Login",
-                        style: TextStyle(color: Colors.white),
+                        style: TextStyle(color: Colors.white,fontSize: 25),
                       ),
                     ),
                   )

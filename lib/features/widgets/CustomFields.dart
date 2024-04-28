@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 
 class CustomFields extends StatelessWidget {
   final TextEditingController controller;
@@ -17,8 +19,8 @@ class CustomFields extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Container(
-      width: 325,
-      height: 57,
+      // width: 325.w,
+      // height: 57.h,
       child: TextFormField(
         obscureText: pass,
         controller: controller,
