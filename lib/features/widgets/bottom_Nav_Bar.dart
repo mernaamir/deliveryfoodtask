@@ -54,10 +54,10 @@ class _ButtomNavBarState extends State<ButtomNavBar> {
                 icon: Icons.shopping_bag,
                 text: "shopping",
               ),
-              GButton(
-                icon: Icons.chat,
-                text: "chat",
-              ),
+              // GButton(
+              //   icon: Icons.chat,
+              //   text: "chat",
+              // ),
             ],
           ),
         ),
