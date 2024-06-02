@@ -46,14 +46,14 @@ class _ButtomNavBarState extends State<ButtomNavBar> {
                 icon: Icons.home,
                 text: "Home",
               ),
-              // GButton(
-              //   icon: Icons.person,
-              //   text: "profile",
-              // ),
-              // GButton(
-              //   icon: Icons.shopping_bag,
-              //   text: "shopping",
-              // ),
+              GButton(
+                icon: Icons.person,
+                text: "profile",
+              ),
+              GButton(
+                icon: Icons.shopping_bag,
+                text: "shopping",
+              ),
               // GButton(
               //   icon: Icons.chat,
               //   text: "chat",
