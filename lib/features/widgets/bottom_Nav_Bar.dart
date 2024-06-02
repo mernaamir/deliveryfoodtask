@@ -43,8 +43,8 @@ class _ButtomNavBarState extends State<ButtomNavBar> {
             padding: EdgeInsets.all(20),
             tabs: const [
               GButton(
-                icon: Icons.home,
-                text: "Home",
+                icon: Icons.any,
+                text: "any",
               ),
               GButton(
                 icon: Icons.person,
@@ -78,7 +78,7 @@ class _ButtomNavBarState extends State<ButtomNavBar> {
 // import 'package:fooddelivery/features/tabs/profile_tab.dart';
 // import 'package:fooddelivery/features/tabs/shopping_tab.dart';
 //
-// class ButtomNavBar extends StatefulWidget {
+// class ButtomNavBar extends
 //    ButtomNavBar({super.key});
 //
 //   @override
